@@ -1,0 +1,76 @@
+$top: 190px;
+$titleTextLeft: 80px;
+$titleTextwidth: 45vw;
+
+#Title{
+    color: #CF0558;
+    width: $titleTextwidth;
+    position: absolute;
+    left: $titleTextLeft;    
+    top: $top;
+}
+
+#Text{
+    width: $titleTextwidth;
+   font-weight: bold;
+    font-size: 17px;
+    height: 130px;
+    line-height:25px;
+    position: absolute;
+    left: $titleTextLeft;    
+    top: $top;
+    margin-top: 90px;
+}
+
+#pagesImage{
+    top: $top;
+    border-radius: 4px;
+    height: 250px;
+    width: 30vw;
+    display: block;
+    position: absolute;
+    left: 55vw;
+    
+}
+
+@media screen and (max-width: 800px){
+    $top: 25px;
+    $titleTextLeft: 0px;
+
+    #Title{
+        color: #CF0558;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        left: $titleTextLeft;
+        position: relative;
+        top: $top;
+    }
+    
+    #Text{
+        top: $top;
+        width: 300px;
+        left: $titleTextLeft;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 16px;
+        height: 130px;
+        position: relative;
+        margin-top: 0px;
+    }
+    
+    #pagesImage{
+        border-radius: 4px;
+        height: 200px;
+        width: 300px;
+        display: block;
+        position: relative;
+        top: $top;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+
+}

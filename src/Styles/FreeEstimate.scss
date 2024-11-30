@@ -1,0 +1,82 @@
+
+#clientData{
+    font-family: Arial, system-ui;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    input{
+        
+        border-radius: 4px;
+        margin-top: 0px;
+        height: 35px;
+        border-width: 1px;
+        outline: none;
+        width: 200px;
+        font-size: 16px;
+        vertical-align: top; 
+        line-height: normal; 
+        
+    }
+
+    textarea{
+        margin-top: 0px;
+        border-radius: 4px;
+        border-width: 1px;
+        outline: none;
+        width: 200px;
+        height: 80px;
+        font-size: 16px;
+        vertical-align: top; 
+        line-height: normal; 
+        font-family: Arial;
+        resize: none;
+    }
+    p{
+        font-size: 15px;
+        font-family: system-ui;
+    }
+}
+
+#sendButton{
+   width: 200px;
+   background-color: #CF0558;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   font-weight: bold;
+   font-size: 15px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+   font-family: Arial;
+   height: 50px;
+   margin-top: 20px;
+   &:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #CF0558;
+    border: solid 2px #CF0558;
+   }
+}
+
+
+#FreeEstimateContainer{
+    overflow: hidden;
+   
+}
+
+@media screen and (min-width: 1040px){
+    
+    #FreeEstimateContainer{
+        overflow: hidden;
+        background-color: white;
+        margin-top: 20px;
+        width: 400px;
+        height: 490px;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+}

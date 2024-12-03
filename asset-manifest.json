@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cleaningServices/static/css/main.8642a420.css",
+    "main.js": "/cleaningServices/static/js/main.0ac6060d.js",
+    "static/js/453.15fb8d7c.chunk.js": "/cleaningServices/static/js/453.15fb8d7c.chunk.js",
+    "static/media/companyLogo.jpg": "/cleaningServices/static/media/companyLogo.3cc4868e83ae3e1c8c60.jpg",
+    "index.html": "/cleaningServices/index.html",
+    "main.8642a420.css.map": "/cleaningServices/static/css/main.8642a420.css.map",
+    "main.0ac6060d.js.map": "/cleaningServices/static/js/main.0ac6060d.js.map",
+    "453.15fb8d7c.chunk.js.map": "/cleaningServices/static/js/453.15fb8d7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8642a420.css",
+    "static/js/main.0ac6060d.js"
+  ]
+}
